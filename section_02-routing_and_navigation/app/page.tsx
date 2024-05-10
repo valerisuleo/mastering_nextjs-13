@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 export default async function Index() {
     /*
@@ -8,9 +7,7 @@ export default async function Index() {
      */
     return (
         <div>
-            <h1>
-                <Link href={'todos'}>Todos List</Link>
-            </h1>
+  
         </div>
     );
 }

@@ -1,6 +1,6 @@
 import './global.css';
 import Footer from './library/footer';
-import Navbar from './library/navbar';
+import Navbar from './common/navbar';
 
 export const metadata = {
     title: 'Welcome to next-fundamentals',

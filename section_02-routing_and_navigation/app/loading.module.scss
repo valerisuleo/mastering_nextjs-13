@@ -1,0 +1,9 @@
+// spinner.module.scss
+.spinnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; // Ensure it takes full width of its parent
+    height: 100vh; // Example height, adjust based on your layout needs
+    // Other styles...
+}
