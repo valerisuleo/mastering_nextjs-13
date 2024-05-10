@@ -9,7 +9,7 @@ export default async function Index() {
     return (
         <div>
             <h1>
-                <Link href={'users'}>Add user</Link>
+                <Link href={'todos'}>Todos List</Link>
             </h1>
         </div>
     );
