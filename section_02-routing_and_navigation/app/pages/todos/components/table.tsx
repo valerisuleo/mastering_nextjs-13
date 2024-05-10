@@ -10,7 +10,7 @@ interface Props {
 }
 
 const TodosTable = ({ list, colName }: Props) => {
-    const th: string[] = [...Object.keys(list[0]), ''];
+    const th: string[] = [...Object.keys(list[0] || {}), ''];
     const sorted: ITodo[] = sort(list).asc((sortBy) => sortBy[colName]);
 
     const setCol = (colName: string, item: ITodo) => {

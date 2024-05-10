@@ -5,7 +5,7 @@ import { IParams } from '../../common/interfaces';
 
 const TodosIndex = async ({ searchParams }: IParams) => {
     const promise = await fetch(
-        'https://jsonplaceholder.typicode.com/todos?_limit=10'
+        'https://jsonplaceholder.typicode.com/xtodos?_limit=10'
     );
     const result: ITodo[] = await promise.json();
 

@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand">
                     Navbar
                 </a>
                 <div className="collapse navbar-collapse" id="navbarNav">
@@ -15,13 +15,13 @@ const Navbar = () => {
                             <Link
                                 className="nav-link active"
                                 aria-current="page"
-                                href={'todos'}
+                                href={'/todos'}
                             >
                                 Todos
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href={'products'}>
+                            <Link className="nav-link" href={'/products'}>
                                 Products
                             </Link>
                         </li>
